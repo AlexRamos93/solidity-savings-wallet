@@ -10,7 +10,7 @@ Rename the `.env.example` file to `.env` and replace the credentials necessary.
 
 ### Deploy
 
-`npx hardhat deploy --network kovan`
+`npm run deploy`
 
 ### Verify contract
 

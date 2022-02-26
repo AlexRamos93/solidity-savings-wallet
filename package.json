@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "REPORT_GAS=true npx hardhat test",
-    "verify": "npx hardhat verify --network kovan"
+    "verify": "npx hardhat verify --network kovan",
+    "deploy": "npx hardhat run scripts/deploy.ts --network kovan"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",
