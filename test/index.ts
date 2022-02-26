@@ -7,11 +7,9 @@ let wallet: Wallet;
 
 describe("Wallet", function () {
   before(async () => await setup());
-  it("Should deposit 10 DAI to aave lending pool", async () => {
-    const tx = await wallet.deposit(1);
-    const a = await tx.wait();
-    console.log(a);
-  });
+  /* 
+    TO BE DEVELOPED
+  */
 });
 
 const setup = async () => {
